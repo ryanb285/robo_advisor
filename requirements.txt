@@ -5,3 +5,6 @@ requests
 python-dotenv
 # pandas 
 #plotly express for imaging if we want to plot, make graphs, etc. 
+
+#API key for me - SWE017PV0CTJW16
+
