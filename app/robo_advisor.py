@@ -9,14 +9,18 @@ load_dotenv()
 
 ALPHAVANTAGE_API_KEY = os.getenv("ALPHAVANTAGE_API_KEY")
 
+
+#this exit is here because the while True loop is breaking
+#check to see if we're trying to make conditions false in a true loop, like an idiot
+
 while True:
     symbol = input("Please select a valid ticker: ")
     if len(symbol) > 4:
         print("Not a valid ticker")
-    elif symbol.upper() is not str:
+    elif not symbol.isalpha():
         print("Not a valid ticker")
     else:
-        continue
+        break
 
 print(symbol)
 exit()

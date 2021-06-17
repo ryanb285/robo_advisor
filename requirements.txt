@@ -1,4 +1,4 @@
-# this is the "requirements.txt" file
+# this is the "requirements.txt" file as pip install -r requirements.txt
 # it might be helpful to use pandas. if you do, uncomment the last line below ...
 
 requests
@@ -7,4 +7,8 @@ python-dotenv
 #plotly express for imaging if we want to plot, make graphs, etc. 
 
 #API key for me - SWE017PV0CTJW16
+
+#https://www.alphavantage.co/query?function=TIME_SERIES_DAILY_ADJUSTED&symbol=MSFT&apikey=SWE017PV0CTJW16
+
+
 
